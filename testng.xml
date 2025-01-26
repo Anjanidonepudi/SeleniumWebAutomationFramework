@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	 <listeners>
+    <listener class-name="WebApplication.AutomationFramework.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="WebApplication.AutomationFramework.ActionsTest_Mutirun_jsondata"/>
+      <class name="WebApplication.AutomationFramework.SeleniumnewFeature_Openingwebpageinnewwindowortab"/>
+      <class name="WebApplication.AutomationFramework.Browsernavigations"/>
+      <class name="WebApplication.AutomationFramework.ActionsTest_Mutipleexecution_Testdataprovider"/>
+      <class name="WebApplication.AutomationFramework.WindowHandles"/>
+      <class name="WebApplication.AutomationFramework.UIDropdownpractise"/>
+      <class name="WebApplication.AutomationFramework.RelativeLocators"/>
+      <class name="WebApplication.AutomationFramework.Alerts"/>
+      <class name="WebApplication.AutomationFramework.DropDownCheck"/>
+      <class name="WebApplication.AutomationFramework.AutoITFileupload"/>
+      <class name="WebApplication.AutomationFramework.BrokenlinksSoftAssertion"/>
+      <class name="WebApplication.AutomationFramework.Iframescheck"/>
+      <class name="WebApplication.AutomationFramework.ConceptActions"/>
+      <class name="WebApplication.AutomationFramework.BaseTest"/>
+      <class name="WebApplication.AutomationFramework.WindowAuthenticatioPopup"/>
+      <class name="WebApplication.AutomationFramework.Scroll"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

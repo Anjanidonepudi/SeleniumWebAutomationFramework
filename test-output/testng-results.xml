@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="18" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-26T22:30:33 GMT" name="Suite" finished-at="2025-01-26T22:33:51 GMT" duration-ms="198033">
+    <groups>
+    </groups>
+    <test started-at="2025-01-26T22:30:33 GMT" name="Test" finished-at="2025-01-26T22:33:51 GMT" duration-ms="198033">
+      <class name="WebApplication.AutomationFramework.BrokenlinksSoftAssertion">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.BrokenlinksSoftAssertion@5a45133e]" started-at="2025-01-26T22:32:34 GMT" name="driversetup" finished-at="2025-01-26T22:32:35 GMT" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="Brokenlink_softassertion()[pri:0, instance:WebApplication.AutomationFramework.BrokenlinksSoftAssertion@5a45133e]" started-at="2025-01-26T22:32:35 GMT" name="Brokenlink_softassertion" finished-at="2025-01-26T22:32:47 GMT" duration-ms="12351" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+The link with TextAppium is broken with code403 expected [true] but found [false],
+The link with TextBroken Link is broken with code404 expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+The link with TextAppium is broken with code403 expected [true] but found [false],
+The link with TextBroken Link is broken with code404 expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at WebApplication.AutomationFramework.BrokenlinksSoftAssertion.Brokenlink_softassertion(BrokenlinksSoftAssertion.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Brokenlink_softassertion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.BrokenlinksSoftAssertion@5a45133e]" started-at="2025-01-26T22:32:47 GMT" name="tearDown" finished-at="2025-01-26T22:32:48 GMT" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.BrokenlinksSoftAssertion -->
+      <class name="WebApplication.AutomationFramework.DropDownCheck">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.DropDownCheck@942a29c]" started-at="2025-01-26T22:32:11 GMT" name="driversetup" finished-at="2025-01-26T22:32:12 GMT" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="StaticDropdowncheck()[pri:0, instance:WebApplication.AutomationFramework.DropDownCheck@942a29c]" started-at="2025-01-26T22:32:12 GMT" name="StaticDropdowncheck" finished-at="2025-01-26T22:32:23 GMT" duration-ms="10764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StaticDropdowncheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.DropDownCheck@942a29c]" started-at="2025-01-26T22:32:23 GMT" name="tearDown" finished-at="2025-01-26T22:32:23 GMT" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.DropDownCheck -->
+      <class name="WebApplication.AutomationFramework.AutoITFileupload">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.AutoITFileupload@1ed6388a]" started-at="2025-01-26T22:32:23 GMT" name="driversetup" finished-at="2025-01-26T22:32:24 GMT" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="AutoIT_FileUpload()[pri:0, instance:WebApplication.AutomationFramework.AutoITFileupload@1ed6388a]" started-at="2025-01-26T22:32:24 GMT" name="AutoIT_FileUpload" finished-at="2025-01-26T22:32:34 GMT" duration-ms="9221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AutoIT_FileUpload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.AutoITFileupload@1ed6388a]" started-at="2025-01-26T22:32:34 GMT" name="tearDown" finished-at="2025-01-26T22:32:34 GMT" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.AutoITFileupload -->
+      <class name="WebApplication.AutomationFramework.Iframescheck">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.Iframescheck@534a5a98]" started-at="2025-01-26T22:32:48 GMT" name="driversetup" finished-at="2025-01-26T22:32:49 GMT" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="Frames()[pri:0, instance:WebApplication.AutomationFramework.Iframescheck@534a5a98]" started-at="2025-01-26T22:32:49 GMT" name="Frames" finished-at="2025-01-26T22:32:57 GMT" duration-ms="8834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Frames -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.Iframescheck@534a5a98]" started-at="2025-01-26T22:32:58 GMT" name="tearDown" finished-at="2025-01-26T22:32:58 GMT" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.Iframescheck -->
+      <class name="WebApplication.AutomationFramework.ActionsTest_Mutirun_jsondata">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.ActionsTest_Mutirun_jsondata@13fd2ccd]" started-at="2025-01-26T22:30:33 GMT" name="driversetup" finished-at="2025-01-26T22:30:34 GMT" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="actionsConceptTest(java.util.HashMap)[pri:0, instance:WebApplication.AutomationFramework.ActionsTest_Mutirun_jsondata@13fd2ccd]" started-at="2025-01-26T22:30:35 GMT" name="actionsConceptTest" data-provider="getTestData" finished-at="2025-01-26T22:30:46 GMT" duration-ms="10974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{autoSuggestText=india}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionsConceptTest -->
+        <test-method signature="actionsConceptTest(java.util.HashMap)[pri:0, instance:WebApplication.AutomationFramework.ActionsTest_Mutirun_jsondata@13fd2ccd]" started-at="2025-01-26T22:30:46 GMT" name="actionsConceptTest" data-provider="getTestData" finished-at="2025-01-26T22:30:51 GMT" duration-ms="4657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{autoSuggestText=usa}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionsConceptTest -->
+        <test-method signature="actionsConceptTest(java.util.HashMap)[pri:0, instance:WebApplication.AutomationFramework.ActionsTest_Mutirun_jsondata@13fd2ccd]" started-at="2025-01-26T22:30:51 GMT" name="actionsConceptTest" data-provider="getTestData" finished-at="2025-01-26T22:30:56 GMT" duration-ms="4907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{autoSuggestText=canada}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionsConceptTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.ActionsTest_Mutirun_jsondata@13fd2ccd]" started-at="2025-01-26T22:30:57 GMT" name="tearDown" finished-at="2025-01-26T22:30:57 GMT" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.ActionsTest_Mutirun_jsondata -->
+      <class name="WebApplication.AutomationFramework.Scroll">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.Scroll@130c12b7]" started-at="2025-01-26T22:33:20 GMT" name="driversetup" finished-at="2025-01-26T22:33:21 GMT" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="scrollConcept()[pri:0, instance:WebApplication.AutomationFramework.Scroll@130c12b7]" started-at="2025-01-26T22:33:21 GMT" name="scrollConcept" finished-at="2025-01-26T22:33:50 GMT" duration-ms="28922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollConcept -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.Scroll@130c12b7]" started-at="2025-01-26T22:33:50 GMT" name="tearDown" finished-at="2025-01-26T22:33:51 GMT" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.Scroll -->
+      <class name="WebApplication.AutomationFramework.WindowHandles">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.WindowHandles@73e9cf30]" started-at="2025-01-26T22:31:36 GMT" name="driversetup" finished-at="2025-01-26T22:31:37 GMT" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="window_Handles_test()[pri:0, instance:WebApplication.AutomationFramework.WindowHandles@73e9cf30]" started-at="2025-01-26T22:31:37 GMT" name="window_Handles_test" finished-at="2025-01-26T22:31:43 GMT" duration-ms="5730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- window_Handles_test -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.WindowHandles@73e9cf30]" started-at="2025-01-26T22:31:43 GMT" name="tearDown" finished-at="2025-01-26T22:31:43 GMT" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.WindowHandles -->
+      <class name="WebApplication.AutomationFramework.WindowAuthenticatioPopup">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.WindowAuthenticatioPopup@121314f7]" started-at="2025-01-26T22:33:10 GMT" name="driversetup" finished-at="2025-01-26T22:33:11 GMT" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="Window_Authentication_popup_handle()[pri:0, instance:WebApplication.AutomationFramework.WindowAuthenticatioPopup@121314f7]" started-at="2025-01-26T22:33:11 GMT" name="Window_Authentication_popup_handle" finished-at="2025-01-26T22:33:20 GMT" duration-ms="9292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Window_Authentication_popup_handle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.WindowAuthenticatioPopup@121314f7]" started-at="2025-01-26T22:33:20 GMT" name="tearDown" finished-at="2025-01-26T22:33:20 GMT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.WindowAuthenticatioPopup -->
+      <class name="WebApplication.AutomationFramework.Browsernavigations">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.Browsernavigations@783a467b]" started-at="2025-01-26T22:31:05 GMT" name="driversetup" finished-at="2025-01-26T22:31:06 GMT" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="Browser_navigations()[pri:0, instance:WebApplication.AutomationFramework.Browsernavigations@783a467b]" started-at="2025-01-26T22:31:06 GMT" name="Browser_navigations" finished-at="2025-01-26T22:31:14 GMT" duration-ms="7650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_navigations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.Browsernavigations@783a467b]" started-at="2025-01-26T22:31:14 GMT" name="tearDown" finished-at="2025-01-26T22:31:15 GMT" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.Browsernavigations -->
+      <class name="WebApplication.AutomationFramework.ConceptActions">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.ConceptActions@4f80542f]" started-at="2025-01-26T22:32:58 GMT" name="driversetup" finished-at="2025-01-26T22:32:59 GMT" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="Actions_concept()[pri:0, instance:WebApplication.AutomationFramework.ConceptActions@4f80542f]" started-at="2025-01-26T22:32:59 GMT" name="Actions_concept" finished-at="2025-01-26T22:33:09 GMT" duration-ms="9952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Actions_concept -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.ConceptActions@4f80542f]" started-at="2025-01-26T22:33:09 GMT" name="tearDown" finished-at="2025-01-26T22:33:10 GMT" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.ConceptActions -->
+      <class name="WebApplication.AutomationFramework.RelativeLocators">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.RelativeLocators@2d52216b]" started-at="2025-01-26T22:32:00 GMT" name="driversetup" finished-at="2025-01-26T22:32:01 GMT" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="RelativeLocatorscheck()[pri:0, instance:WebApplication.AutomationFramework.RelativeLocators@2d52216b]" started-at="2025-01-26T22:32:01 GMT" name="RelativeLocatorscheck" finished-at="2025-01-26T22:32:03 GMT" duration-ms="2345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RelativeLocatorscheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.RelativeLocators@2d52216b]" started-at="2025-01-26T22:32:04 GMT" name="tearDown" finished-at="2025-01-26T22:32:04 GMT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.RelativeLocators -->
+      <class name="WebApplication.AutomationFramework.UIDropdownpractise">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.UIDropdownpractise@771a660]" started-at="2025-01-26T22:31:43 GMT" name="driversetup" finished-at="2025-01-26T22:31:44 GMT" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="Ui_Dropdowns_Automation()[pri:0, instance:WebApplication.AutomationFramework.UIDropdownpractise@771a660]" started-at="2025-01-26T22:31:44 GMT" name="Ui_Dropdowns_Automation" finished-at="2025-01-26T22:31:59 GMT" duration-ms="15273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ui_Dropdowns_Automation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.UIDropdownpractise@771a660]" started-at="2025-01-26T22:32:00 GMT" name="tearDown" finished-at="2025-01-26T22:32:00 GMT" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.UIDropdownpractise -->
+      <class name="WebApplication.AutomationFramework.ActionsTest_Mutipleexecution_Testdataprovider">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.ActionsTest_Mutipleexecution_Testdataprovider@272113c4]" started-at="2025-01-26T22:31:15 GMT" name="driversetup" finished-at="2025-01-26T22:31:15 GMT" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="actionsConceptTest(java.lang.String)[pri:0, instance:WebApplication.AutomationFramework.ActionsTest_Mutipleexecution_Testdataprovider@272113c4]" started-at="2025-01-26T22:31:15 GMT" name="actionsConceptTest" data-provider="getTestData" finished-at="2025-01-26T22:31:25 GMT" duration-ms="9719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionsConceptTest -->
+        <test-method signature="actionsConceptTest(java.lang.String)[pri:0, instance:WebApplication.AutomationFramework.ActionsTest_Mutipleexecution_Testdataprovider@272113c4]" started-at="2025-01-26T22:31:26 GMT" name="actionsConceptTest" data-provider="getTestData" finished-at="2025-01-26T22:31:30 GMT" duration-ms="4600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionsConceptTest -->
+        <test-method signature="actionsConceptTest(java.lang.String)[pri:0, instance:WebApplication.AutomationFramework.ActionsTest_Mutipleexecution_Testdataprovider@272113c4]" started-at="2025-01-26T22:31:31 GMT" name="actionsConceptTest" data-provider="getTestData" finished-at="2025-01-26T22:31:35 GMT" duration-ms="4724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[canada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionsConceptTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.ActionsTest_Mutipleexecution_Testdataprovider@272113c4]" started-at="2025-01-26T22:31:36 GMT" name="tearDown" finished-at="2025-01-26T22:31:36 GMT" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.ActionsTest_Mutipleexecution_Testdataprovider -->
+      <class name="WebApplication.AutomationFramework.Alerts">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.Alerts@3527942a]" started-at="2025-01-26T22:32:04 GMT" name="driversetup" finished-at="2025-01-26T22:32:05 GMT" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="Alertscheck()[pri:0, instance:WebApplication.AutomationFramework.Alerts@3527942a]" started-at="2025-01-26T22:32:05 GMT" name="Alertscheck" finished-at="2025-01-26T22:32:10 GMT" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alertscheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.Alerts@3527942a]" started-at="2025-01-26T22:32:11 GMT" name="tearDown" finished-at="2025-01-26T22:32:11 GMT" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.Alerts -->
+      <class name="WebApplication.AutomationFramework.SeleniumnewFeature_Openingwebpageinnewwindowortab">
+        <test-method is-config="true" signature="driversetup()[pri:0, instance:WebApplication.AutomationFramework.SeleniumnewFeature_Openingwebpageinnewwindowortab@7db12bb6]" started-at="2025-01-26T22:30:57 GMT" name="driversetup" finished-at="2025-01-26T22:30:58 GMT" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="selenium_newFeatures()[pri:0, instance:WebApplication.AutomationFramework.SeleniumnewFeature_Openingwebpageinnewwindowortab@7db12bb6]" started-at="2025-01-26T22:30:58 GMT" name="selenium_newFeatures" finished-at="2025-01-26T22:31:05 GMT" duration-ms="6869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selenium_newFeatures -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:WebApplication.AutomationFramework.SeleniumnewFeature_Openingwebpageinnewwindowortab@7db12bb6]" started-at="2025-01-26T22:31:05 GMT" name="tearDown" finished-at="2025-01-26T22:31:05 GMT" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- WebApplication.AutomationFramework.SeleniumnewFeature_Openingwebpageinnewwindowortab -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
